@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+    <bean id="add" class="com.spring.spring_core.model.Address">
+		<property name="city" value="gzb"/>
+		<property name="state" value="up"/>
+		<property name="pinCode" value="221114"/>
+		
+		
+	</bean>
+	
+	<bean id="emp" class="com.spring.spring_core.model.Employee">
+		<property name="name" value="Prashant"></property>
+		<property name="gender" value="Male"></property>
+		
+		
+		
+	</bean>
+
+</beans>
